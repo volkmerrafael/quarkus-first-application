@@ -21,5 +21,7 @@ quarkus.datasource.password: quarkus@123
 ```java
 mvn clean package
 mvn compile quarkus:dev
-http://localhost:8080/home
+http://localhost:8080/api/hello
+result:
+   hello
 ```
